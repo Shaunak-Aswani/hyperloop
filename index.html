@@ -9,8 +9,16 @@
     <meta charset="utf-8">
 
   </head>
-  <body>
-    <script src="sketch.js"></script>
-  
 
-</body></html>
+  <script src="sketch.js"></script>
+
+  <script>
+  </script>
+
+  <body>
+    <button type="button" onclick="resetClicked()">Reset</button>
+    <div class="slidecontainer">
+      <input type="range" min="0" max="20" value="1" class="slider" id="friction" onchange="updateFriction(this.value)">
+    </div>
+  </body>
+</html>
